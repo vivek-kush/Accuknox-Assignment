@@ -12,13 +12,13 @@ This project is a Django-based backend API for managing user authentication and 
 
 ```bash
 git clone https://github.com/vivek-kush/Accuknox-Assignment.git
-cd social_network
+cd Accuknox-Assignment/social_network
 ```
 
 2. Run docker compose file:
     
 ```bash
-docker-compose up
+docker-compose up --build
 ```
 
 ## Test with cURL
