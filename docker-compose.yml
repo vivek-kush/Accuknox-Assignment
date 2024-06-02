@@ -1,0 +1,8 @@
+version: '1'
+services:
+  web:
+    build:
+      dockerfile: Dockerfile
+    command: ["./entrypoint.sh"]
+    ports:
+      - "8000:8000"
